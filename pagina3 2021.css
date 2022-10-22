@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+}
+body{
+    background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2b96, hsla(223, 100%, 83%, 0.897)); 
+}
+  /*-----------HEADER---------------------nota. cuando anide el header dentro del nav y cambie el tamaño de la letra, y el higth,
+  Se quebro el nav por culpa de el header. Asi que reemplaze la etiqueta header del nav por un section para que quedaran separados el header
+ y el nav y asi no se afectaran cuando cambie el tamaño de uno  o de otro.
+                             
+                              */
+   header{
+         background: #FF0099;  
+         background: -webkit-linear-gradient(to right, #493240, #FF0099);  
+        background: linear-gradient(to right, #493240, #FF0099); 
+        height:250px;
+        max-width:100%;
+   }
+   h1{ 
+       font-family: "lobster",cursive;
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    height:250px;
+    max-width:100%;
+    padding-top: 50px;
+   }
+                    /*---------------BARRA DE NAVEGACION-------------*/                            
+section  nav{
+    background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 1*/
+overflow: hidden;
+}
+
+section  nav ul{
+    list-style-type: none;
+}
+section  nav ul li{
+    float: left;
+
+
+}
+
+section nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding:10px 100px;
+}
+a[href="#elfinal"]:hover{
+ transform: scale(1.5);
+ background-color: white;
+}
+
+                   /*---------------CONTENIDO  PRINCIPAL----------------*/
+
+.images{
+    background: #a8c0ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2b96, hsla(223, 100%, 83%, 0.897)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   padding:60px 10px;
+}
+
+img{
+    
+    width:auto;
+    margin: 0px 60px;
+    border-radius: 10px;
+    border-color: blue;
+    border-style:solid;
+}
+img:hover{
+    transform:scale(1.5)
+    
+
+}
+main div p[id="texto-1"]{
+    font-family: "lobster",cursive;
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+main div p{
+    font-family: "lobster",cursive;
+    color:white;
+    font-size: 15px;
+}
+main div a{
+    color:orangered;
+    text-decoration: none;
+}
+                                     /*------------------------SECCION NUMERO 2--------------*/
+h2{
+    font-family: "lobster",cursive;
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    padding-bottom: 50px;  
+}
+section p{
+    font-size: medium;
+    font: 1em sans-serif;
+    text-justify: auto;
+    font-weight: 600;
+
+}
+                                  /*--------------------SECCION DE FORMULARIO-----------------*/
+
+#form{
+    background: #FF0099;  
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);  
+   background: linear-gradient(to right, #493240, #FF0099);   
+}
+h3{
+
+}
+h4{
+    font-family: "lobster",cursive;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    padding-bottom: 50px;      
+}
+#htitulo{
+    font-family: "lobster",cursive;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    padding-bottom: 50px;      
+} 
+form{
+    text-align: center;
+    color:orangered;     
+}
+                         /*---------------------------------SECCION PIE DE PAGINA--------------------------*/
+footer{
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height:200px;
+}
+h5{
+    font-family: "lobster",cursive;
+    text-align:left;
+    color:white;
+    font-size: 20px;
+    padding-bottom: 50px;        
+}
+footer p{
+    font-family: "lobster",cursive;
+    text-align:left;
+    color:white;
+    font-size: 20px;
+    padding-bottom: 50px;      
+}
